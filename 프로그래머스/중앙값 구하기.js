@@ -1,3 +1,4 @@
 function solution(array) {
-  return array.sort()[(array.length-1)/2];
+  array.sort(function(a,b){return a-b})
+  return array [((array.length)-1)/2];
 }
